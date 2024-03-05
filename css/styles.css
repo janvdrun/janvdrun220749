@@ -6,23 +6,23 @@
 /* Styles for the body */
 
 body {
-	font-family: Lato, "Open Sans", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	color: #202030;
-	background-color: #727296;
+	font-family: kode mono, "Open Sans", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #c70f0f;
+	background-color: #242424;
 }
 
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
-    background-color: #3b5db4;
+    background-color: #2f2f32;
 }
 
 .resume-main {
-	background-color: #9a917e;
+	background-color: #000000;
 }
 
 .resume-aside {
-	background-color: #fff0e0;
+	background-color: #393939;
 }
 
 /* Styles for lists in the document */
@@ -36,7 +36,7 @@ body {
 }
 
 .biography-details li::before {
-	color: #EE7623;
+	color: red#ffffff;
 }
 
 .biography-details li, .skill-list li {
@@ -50,3 +50,20 @@ body {
 	flex-basis: 1.4em;
 }
 
+.font {
+
+
+
+:any-link {
+	color: #c70f0f;
+
+font-family:// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 700
+
+.kode-mono-<uniquifier> {
+  font-family: "Kode Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: <600>;
+  font-style: normal
+  ;
+} ;
