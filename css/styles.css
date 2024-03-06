@@ -14,7 +14,7 @@ body {
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
-    background-color: #2f2f32;
+    background-color: #000000;
 }
 
 .resume-main {
@@ -55,7 +55,7 @@ body {
 
 
 :any-link {
-	color: #c70f0f;
+	color: #c70f0f; 
 
 font-family:// <uniquifier>: Use a unique and descriptive class name
 // <weight>: Use a value from 400 to 700
@@ -67,3 +67,4 @@ font-family:// <uniquifier>: Use a unique and descriptive class name
   font-style: normal
   ;
 } ;
+
