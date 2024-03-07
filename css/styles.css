@@ -36,7 +36,7 @@ body {
 }
 
 .biography-details li::before {
-	color: red#ffffff;
+	color: red;
 }
 
 .biography-details li, .skill-list li {
@@ -67,4 +67,13 @@ font-family:// <uniquifier>: Use a unique and descriptive class name
   font-style: normal
   ;
 } ;
+
+
+.border {
+	border-color: rgb(135, 56, 56) !important;
+}
+
+.language-progress {
+	background-color: rgb(0, 0, 0);
+}
 
